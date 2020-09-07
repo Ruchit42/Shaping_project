@@ -10,24 +10,25 @@ package project00;
  * @author ruchi
  */
 public class Triangle extends Shape { 
-    public double sideA; 
-    public double sideB; 
-    public double sideC; 
-    public Triangle(String name,double sideA, double sideB, double sideC){
+    public double side_A; 
+    public double side_B; 
+    public double side_C; 
+    public Triangle(String name){
         super(name);  
-        this.sideA = sideA; 
-        this.sideB = sideB; 
-        this.sideC = sideC; 
-        
-    } 
+    }  
+     void setDimensions(double sideA, double sideB, double sideC) { 
+         side_A = sideA; 
+        side_B = sideB; 
+        side_C = sideC; 
+    }
     
     public void printDimensions(){
-        System.out.println("This triangle is of three sides \n sideA: " + sideA + "\n sideB: "+ sideB + "\n sideC: " + sideC);
+        System.out.println("This triangle is of three sides \n sideA: " + side_A + "\n sideB: "+ side_B + "\n sideC: " + side_C);
     }  
     
     public double getArea(){ 
-        double s = (sideA + sideB + sideC) / 2; 
-        double almost = s * (s-sideA) * (s-sideB) * (s-sideC);
+        double s = (side_A + side_B + side_C) / 2; 
+        double almost = s * (s-side_A) * (s-side_B) * (s-side_C);
        return Math.sqrt(almost);
     }
 }

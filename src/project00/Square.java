@@ -10,7 +10,7 @@ package project00;
  * @author ruchi
  */
 public class Square extends Shape {
-    public double length; 
+    public double length; // initial variable for the square 
     public double height; 
     public  Square(String name){
         super(name); 

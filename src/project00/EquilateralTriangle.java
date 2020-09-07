@@ -11,8 +11,18 @@ package project00;
  */
 public class EquilateralTriangle extends Triangle { 
     public double sideOne; 
-    public EquilateralTriangle(String name, double sideOne){
-        this.name = name ;  
-        this.sideOne = sideOne; 
+    public EquilateralTriangle(String name){
+        super(name);
+    } 
+     void setDimensions(double side1) {
+        sideOne = side1; 
+    } 
+     public void printDimensions(){
+        System.out.println("This Equilateral triangle has the length of : "+ sideOne);
+    }
+    public double getArea(){
+        double s = (sideOne*3) / 2; 
+        double almost = s * (s-sideOne) *3;
+       return Math.sqrt(almost);
     }
 }
