@@ -11,14 +11,18 @@ package project00;
  */
 public class Circle extends Shape { 
     public double radius; 
-    public Circle(String name, double radius){
+    public Circle(String name){
         super(name); 
-        this.radius = radius; 
+        
     } 
-    
+    void setDimensions(double radius1) {
+        radius = radius1; //To change body of generated methods, choose Tools | Templates.
+    }
+    @Override
     public void printDimensions(){
         System.out.println("This circle is of radius: "+ radius);
     }
+    @Override
     public double getArea(){
         return 3.14*radius*radius ; 
     }

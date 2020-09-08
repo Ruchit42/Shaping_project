@@ -13,20 +13,20 @@ public class Square extends Shape {
     public double length; // initial variable for the square 
     public double height; 
     public  Square(String name){
-        super(name); 
+        super(name); // get the variable from the super class 
         
     } 
     public void setDimensions(double length1, double height1){
         length  = length1;
-        height = height1;
+        height = height1;  // sets the variable from the user
     }
-    
+    @Override
     public void printDimensions(){
-        System.out.println("This square id of length: " + length + " height: " + height);
+        System.out.println("This square is of length: " + length + " height: " + height); // prints outs the components 
     } 
-    
+    @Override
     public double getArea(){
-        return length*height; 
+        return length*height;  // area of a Square 
     }
 } 
     
