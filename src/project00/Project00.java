@@ -59,7 +59,7 @@ public class Project00 {
         
         
         System.out.println("All set; here are the shapes\n");
-        System.out.print("The square with name "+ One.getName() + " ");One.printDimensions(); System.out.print("with an area of " + One.getArea() + "\n");
+        System.out.print("The square with name "+ One.getName() + " ");One.printDimensions(); System.out.println("with an area of " + One.getArea() + "\n");
         System.out.println("The circle with name "+ two.getName() + " ");two.printDimensions(); System.out.println("with an area of " + two.getArea() + "\n");
         System.out.println("The triangle with name "+ three.getName() + " ");three.printDimensions();System.out.println("with an area of " + three.getArea() +"\n");
         System.out.println("The Eqilateral triangle with name "+ four.getName() + " ");four.printDimensions(); System.out.println("with an area of " + four.getArea() + "\n");
