@@ -20,7 +20,7 @@ public class Circle extends Shape {
     }
     @Override
     public void printDimensions(){
-        System.out.println("This circle is of radius: "+ radius);
+        System.out.println("This circle is of radius: "+ radius );
     }
     @Override
     public double getArea(){

@@ -19,7 +19,7 @@ public class EquilateralTriangle extends Triangle { // child of the triangle cla
     }  
      @Override
      public void printDimensions(){
-        System.out.println("This Equilateral triangle has the length of : "+ sideOne);
+        System.out.println("This Equilateral triangle named "+ " has the length of : "+ sideOne );
     }
      @Override
     public double getArea(){ // area of a triangel 

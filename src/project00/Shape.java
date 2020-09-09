@@ -32,9 +32,6 @@ public class Shape {
         System.out.println("No dimensions");
     }
 
-    void setDimensions(double d, double d0) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
 
     
     

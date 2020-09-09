@@ -23,7 +23,7 @@ public class Triangle extends Shape {  // child of the shape class
     }
     @Override
     public void printDimensions(){ // prints out the different sides of the triangle 
-        System.out.println("This triangle is of three sides \n sideA: " + side_A + "\n sideB: "+ side_B + "\n sideC: " + side_C);
+        System.out.println("This triangle is of three sides \n sideA: " + side_A + "\n sideB: "+ side_B + "\n sideC: " + side_C );
     }  
     @Override
     public double getArea(){  // area of a triangle 
